@@ -26,7 +26,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
         <Link to="/">
           <StaticImage
             className={classes.image}
-            src="../../images/profile.jpg"
+            src="../../images/headshot.jpg"
             alt={metadata.name}
             placeholder="dominantColor"
             layout="fullWidth"
